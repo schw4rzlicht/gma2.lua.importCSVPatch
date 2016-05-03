@@ -11,6 +11,7 @@ This plugin imports a given .csv (Comma Seperated Values) file with fixture numb
 In order to use the plugin, you first need to create the .csv file. Usually, M$ Excel can do this. Make sure, that there are only two columns and no headings in your file. Only CSV files with ; as delimiter and no encapsulating characters are supported.
 The first column needs to be your fixture IDs (Channel IDs are not supported!) without any special characters - only numbers are allowed!
 The second column should be the Universe/DMX Address information as entered into the MA patch window. E.g. 4.211 for universe 4, address 211.
+Export your table as patch.csv and save it on a USB drive. The filename is important!
 
 ### Import to GMA2
 
